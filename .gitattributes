@@ -4,3 +4,5 @@ Alchemists_V2/Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS filte
 Alchemists_V2/Library/PlayerDataCache/Win64/Data/resources.assets.resS filter=lfs diff=lfs merge=lfs -text
 Alchemists_V2/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 Alchemists_V2/Assets/AssetsStore/Wood[[:space:]]Box/Assets/Textures/Box_Wood_4_MetallicSmoothness.tga filter=lfs diff=lfs merge=lfs -text
+Alchemists_Unity_Exe/Alchemists_V2_Data/sharedassets0.assets.resS filter=lfs diff=lfs merge=lfs -text
+Alchemists_Unity_Exe/Alchemists_V2_Data/resources.assets.resS filter=lfs diff=lfs merge=lfs -text
