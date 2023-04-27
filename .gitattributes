@@ -1,2 +1,13 @@
 Alchemists_V2 filter=lfs diff=lfs merge=lfs -text
 alchemists_vue filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/ filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Library filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Logs filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Packages filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/ProjectSettings filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Assets filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Assembly-CSharp-Editor.csproj filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Assembly-CSharp.csproj filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/UserSettings filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/obj filter=lfs diff=lfs merge=lfs -text
+Alchemists_V2/Alchemists_V2.sln filter=lfs diff=lfs merge=lfs -text
