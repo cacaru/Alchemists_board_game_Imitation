@@ -1,0 +1,135 @@
+div#game_lobby {
+    text-align: center;
+    background-image: url('@/assets/img/parchment_2.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div#game_lobby div#room_title {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 80px;
+    color: #3cb371;
+    font-size: 500%;
+    font-family:  'InkLipquid';
+}
+#room_back {
+    background-image: url('@/assets/img/parchment_3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div#player_list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.entrans {
+    margin: 10px;
+    border: 5px solid;
+    border-color: #7B674F;
+    border-radius: 20px;;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    font-family: 'UhBeeeunD';
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.inline {
+    display:inline-block;
+    margin: 0 0 0 20px;
+}
+
+p.name {
+    border-radius: 3px;
+    border-width: 5px;
+}
+
+p.user_color_announce {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.user_color {
+    width : 35px;
+    height: 35px;
+    border: 15px solid;
+    border-color : green;
+    border-radius: 50%;
+}
+
+button.back_to_choose_color {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+div#end_content {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+textarea#chat_area {
+    text-align: left;
+    width: 80%;
+    height: 120px;
+    resize:none;
+    font-size : 16px;
+    font-family: '양진체';
+    scroll-behavior: smooth;
+    margin-bottom: 10px;
+}
+
+input#message_area {
+    width : 65%;
+    height : 30px;
+    border: 0px;
+    font-size : 16px;
+    font-family: '양진체';
+}
+input#message_area:focus {
+    border : 0px;
+    outline : none;
+}
+
+button#sending {
+    width : 15%;
+    border-radius: 10px;
+    background-color:#deb887;
+}
+
+button.game_start, button.room_out_btn {
+    width : 80%;
+    font-size: 25px;
+    font-family:'양진체' ;
+}
+
+button.room_out_btn {
+    margin-top: 25px;
+}
+
+div#loading_div {
+    background-image: url('@/assets/img/parchment_2.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+div#loading_title {
+    margin-top: 0px;
+    padding-top: 140px;
+    color: #3cb371;
+    font-size: 500%;
+    font-family:  '양진체';
+}
+
+div#loading_spin_div{
+    margin-top: 160px;
+    padding-bottom: 200px;
+}

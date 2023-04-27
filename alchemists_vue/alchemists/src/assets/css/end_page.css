@@ -1,0 +1,105 @@
+/* end_page css */
+
+div#end_page {
+    text-align: center;
+    background-image: url(@/assets/img/ending_page/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    font-family: '양진체';
+}
+
+p#main_title {
+    text-align: center;
+    color: #3cb371;
+    font-size: 500%;
+    font-family: 'InkLipquid';
+}
+
+p#gamer_count {
+    color:white;
+}
+
+div#game_result_section {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+div#area_top {
+    background: url(@/assets/img/ending_page/content_background-top.png) no-repeat ;
+    margin-left: 40%;
+    max-width: 55%;
+    padding-top: 2%;
+    margin-top: 15%;
+}
+
+div#background_text_area {
+    background: url(@/assets/img/ending_page/content_background-bottom.png) 0 100% no-repeat;
+    padding-bottom: 3.7%;
+}
+
+div.data_row {
+    background-image: url(@/assets/img/ending_page/content_background-body.png);
+    background-repeat: repeat-y;
+    background-attachment: local;
+    font-size: 25px;
+}
+
+div#end_page_btn_extra_area {
+    font-size: xx-large;
+    margin-top: 35%;
+    background: url(@/assets/img/ending_page/content_background-top.png) no-repeat ;
+    background-position: top center;
+    padding-top: 2%;
+}
+div#end_page_btn_extra_area_bot {
+    background: url(@/assets/img/ending_page/content_background-bottom.png) no-repeat ;
+    background-position: bottom center;
+    padding-bottom: 2.1%;
+}
+
+div#end_page_btn_extra_area_inner {
+    background-image: url(@/assets/img/ending_page/content_background-body.png);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+div#end_page_btn_area{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+button {
+    text-align: center;    
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-family: '양진체';
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+button.close_btn {
+    background-color: #9acd32;
+    margin-left: 15%;
+}
+button.re_cancel_btn {
+    background-color: #9acd32;
+}
+button.close_btn:hover , button.re_cancel_btn:hover{
+    background-color: #3cb371;
+}
+button.close_btn:active , button.re_cancel_btn:active{
+    background-color: #228b22;
+}
+
+button.restart_btn {
+    background-color: #9370d8;
+}
+button.restart_btn:hover {
+    background-color: #7b68ee;
+}
+button.restart_btn:active {
+    background-color: slateblue;
+}

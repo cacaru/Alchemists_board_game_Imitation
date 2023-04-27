@@ -1,0 +1,71 @@
+/* 방 목록을 보여주는 창 css  */
+
+div#room_list,
+div#loading_div {
+    text-align: center;
+    background-image: url('@/assets/img/parchment.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: '양진체';
+}
+div#loading_div {
+    height: 1400px;
+}
+
+p#loading_title {
+    font-size: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+span#spinner {
+    width: 50px;
+    height: 50px;
+}
+
+div#title_area {
+    font-size: 40px;
+    padding-top: 155px;
+    padding-bottom: 50px;
+}
+
+div.room_list_area {
+    height: 870px;
+    width: 650px;
+    margin: auto;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    -ms-overflow-style:none; /* IE and Edge */
+    scrollbar-width:none; /* Firefox */
+}
+div#room_list_area::-webkit-scrollbar{
+   display:none;  /* Chrome , Safari , Opera */
+}
+
+div.room_card {
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-image: url(@/assets/img/parchment_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+div#room_create_area {
+    margin-top : 50px;
+    padding-bottom: 100px;
+}
+
+button.room_create_btn {
+    font-size: 25px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.card-group > .card {
+    border-radius: 2rem;
+}
+
+div.btn_area {
+    text-align: center;
+}

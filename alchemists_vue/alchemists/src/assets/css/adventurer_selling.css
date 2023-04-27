@@ -1,0 +1,79 @@
+/*   sell - potion -css  */
+div.mt_10 {
+    margin-top: 10px;
+}
+button.sell_potion_reasoning_table_btn {
+    margin-left : 40%;
+}
+img.sell_part_icon {
+    max-width: 100%;
+}
+img.v_coin_icon {
+    max-width: 100%;
+    text-align: center;
+}
+
+img.v_coin_icon.selected {
+    border: 2px solid skyblue;
+    border-radius: 50%;
+}
+img.v_coin_icon.red {
+    border : 10px solid red;
+    border-radius: 50%;
+}
+img.v_coin_icon.blue {
+    border : 10px solid blue;
+    border-radius: 50%;
+}
+img.v_coin_icon.black {
+    border : 10px solid black;
+    border-radius: 50%;
+}
+img.v_coin_icon.white {
+    border: 10px solid #F6F1B6;
+    border-radius: 50%;
+}
+button.adv_sell_potion_btn {
+    color: green;
+    margin-top: 15px;
+}
+img.adv_sell_potion_icon {
+    cursor: pointer;
+}
+
+span.now_selling_price {
+    font-size : 40px;
+    color : blue;
+}
+/* 물약 판매 모달 */
+img.make_potion_kind_icon {
+    margin-top:5px;
+}
+
+img.sell_card_img { 
+    width: 80px;
+}
+img.sell_card_img.test_border {
+    border-radius: 12px;
+    border: 2px solid blueviolet;
+}
+
+div#make_potion_ing_btn_area {
+    text-align: center;
+}
+
+span.card_and_count > img.sell_card_img {
+    width : 92px;
+    cursor: pointer;
+}
+
+div#selling_end_modal {
+    z-index:1070;
+}
+div.selling_success_ment {
+    color:green;
+    font-size:xx-large;
+}
+span.selling_potion_ment {
+    text-align: center;
+}

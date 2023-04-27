@@ -1,0 +1,113 @@
+/* create lobby css */
+/* ksh make in 2022.5.2 */
+
+div.lobby {
+    text-align: center;
+    background-image: url('@/assets/img/parchment.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: '양진체';
+    height: 1400px;
+}
+
+div.lobby p#title {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 130px;
+    color: #3cb371;
+    font-size: 500%;
+    font-family:  'InkLipquid';
+}
+
+/*help*/
+p.help, span.help {
+    margin:0px;
+    font-family: '양진체';
+    font-size: 25px;
+}
+div.margin_area {
+    margin-top: 20px;
+}
+div.end_area {
+    padding-bottom: 200px;
+}
+
+p.sm_help {
+    font-size: 20px;
+    font-family: '양진체';
+}
+
+/* ip_address */
+/*
+p#show_ip {
+    margin:70px;
+    font-family: 'InkLipquid';
+    font-size: 45px;
+}
+
+p#show_ip span#ip_area {
+    -webkit-user-select:text;
+    -moz-user-select:text;
+    -ms-user-select:text;
+    user-select: text;
+}
+
+p#menber_count {
+    margin:1px;
+    font-family: 'InkLipquid';
+    font-size: 45px;
+}
+*/
+/* input box */
+input.input_box {
+    font-family: '양진체';
+    font-size : 30px;
+    width: 400px;
+    height: 120ox;
+    text-align: center;
+    border-radius: 10px;
+}
+input.long {
+    width: 400px;
+}
+
+/* select */
+select#room_max_count_select {
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* create button */
+button {
+    text-align: center;    
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-family: '양진체';
+    border-radius: 20px;
+    transition: background-color .5s;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+button.create_game {
+    background-color:#9370d8;
+}
+button.create_game:hover{
+    background-color:#7b68ee;
+}
+button.create_game:active{
+    background-color: slateblue;
+}
+
+button.back_main {
+    background-color:#9acd32;
+}
+button.back_main:hover {
+    background-color: #3cb371;
+    cursor: pointer;
+}
+button.back_main:active{
+    background-color: #228b22;
+}

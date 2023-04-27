@@ -1,0 +1,170 @@
+/*배경*/
+div#first_page {
+    background-image: url(@/assets/img/alchemist_main_back.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+/* 제목 */
+p#main_title {
+    text-align: center;
+    padding-top: 400px;
+    margin-top: 0px;
+    margin-right: 410px;
+    color: #3cb371;
+    font-size: 500%;
+    font-family:  'InkLipquid';
+}
+/* ----------------------------------------- */
+/* 버튼 */
+div.is_main_button_group{
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+button {
+    text-align: center;    
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    font-family: '양진체';
+    border-radius: 20px;
+    transition: background-color .5s;
+}
+button.first_button {
+    margin-top:200px;
+}
+body button.main_button {
+    background-color:#9acd32;
+}
+body button.main_button:hover {
+    background-color: #3cb371;
+    cursor: pointer;
+}
+body button.main_button:active{
+    background-color: #228b22;
+}
+body button.main_button:nth-child(2){
+    margin-left: 15%;
+}
+body button.start_game , button#btn_join_server {
+    margin-top:20px;
+    background-color:#9370d8;
+}
+body button.start_game:hover , button#btn_join_server:hover {
+    background-color:#7b68ee;
+}
+body button.start_game:active , button#btn_join_server:active {
+    background-color: slateblue;
+}
+
+/*********************************************/
+/* ------------ 서버에 접속하기-------------- */
+div#form_div {
+    max-width: 450px;
+    margin-left: 50%;
+}
+div#form_group_top_div {
+    background-image: url(@/assets/img/ending_page/content_background-top.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    padding-top: 17px;
+}
+
+div#form_group_bottom_div {
+    background-image: url(@/assets/img/ending_page/content_background-bottom.png);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: bottom center;
+    padding-bottom: 1px;
+}
+
+div#form_group_div {
+    background-image: url(@/assets/img/ending_page/content_background-body.png);
+    background-repeat: repeat-y;
+    background-size: 450px;
+    
+    font-family: '양진체';
+}
+div.input_group {
+    padding:16px;
+}
+
+div#join_btn_area {
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 45px;
+}
+
+button#btn_join_server {
+    margin-top: 0px;
+}
+
+/* ----------------------------------------- */
+/* ------------  셀렉트 박스 ---------------- */
+body  div#select_user_mount {
+    text-align: center;
+    font-size: 40px;
+    color:#f0f8ff;
+    font-family: '양진체';
+}
+body  div#select_user_mount select {
+    width: 130px;
+    height: 50px;
+    font-size: 30px;
+    font-family: '양진체';
+    text-align: center;
+    /* 꾸미기 */
+    /* 기존 화살표 제거 */
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+    /* 테두리 */
+    border-radius: 30px;
+}
+
+/* ------------create_lobby a 태그---------- */
+body a.start_game {
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    padding:20px 40px 20px 40px;
+    margin:10px;
+    display:inline-block;
+    border-radius: 20px;
+    background-color:#9370d8;
+}
+body a.start_game:hover{
+    background-color:#7b68ee;
+}
+body a.start_game:active {
+    background-color: slateblue;
+}
+
+/* ----------------------------------------- */
+/* 폰트 영역 */
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'UhBeeeunD';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeeunD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Daheng';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_02@1.0/Daheng.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

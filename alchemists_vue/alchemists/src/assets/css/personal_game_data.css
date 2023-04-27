@@ -1,0 +1,28 @@
+p#board_side_menu_title {
+    font-size : 40px;
+}
+
+div.col {
+    text-align: center;
+}
+
+div.col > img {
+    max-width: 80px;
+}
+
+div.col > img.adventurer_nego_token {
+    max-width: 60px;
+}
+div.col > img.check_potion_area {
+    max-width: 45px;
+}
+
+div.favor_area > div.row > div.col > img , div.artifacts_area > div.row > div.col > img {
+    cursor:pointer;
+}
+
+div.col#left_menu {
+    border-right: 3px solid;
+    border-right-color:#deb887;
+    border-radius: 10px;
+}
