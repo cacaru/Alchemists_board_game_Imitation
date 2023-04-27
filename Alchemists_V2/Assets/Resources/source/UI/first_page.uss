@@ -1,0 +1,22 @@
+#first_page_back {
+    -unity-font: url('project://database/Assets/source/font/EBS_hunmin_SB.ttf?fileID=12800000&guid=78afffaaf86b92e4c85bfd46a2a8198b&type=3#EBS_hunmin_SB');
+    width: 1920px;
+    height: 1080px;
+    -unity-font-definition: none;
+    font-size: 11px;
+    -unity-text-align: upper-center;
+}
+
+#connect_btn {
+    transition-property: background-image;
+    transition-delay: 0s;
+    background-image: url('project://database/Assets/source/img/astral_magic_circle_1.png?fileID=2800000&guid=125797217205c4d469befcc68b5ab933&type=3#astral_magic_circle_1');
+    transition-duration: 0.1s;
+    width: 300px;
+    height: 300px;
+    transition-timing-function: linear;
+}
+
+#connect_btn:hover {
+    background-image: url('project://database/Assets/source/img/astral_magic_circle_change_1.png?fileID=21300000&guid=4797464bff089d342af6b1f4954ac4fc&type=3#astral_magic_circle_change_1');
+}

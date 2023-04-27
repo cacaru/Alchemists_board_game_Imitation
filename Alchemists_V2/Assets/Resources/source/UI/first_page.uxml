@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/source/UI/first_page.uss?fileID=7433441132597879392&amp;guid=9a52e3b1a91b96e4282cea9e1b3fd436&amp;type=3#first_page" />
+    <ui:VisualElement name="first_page_back" style="height: 100%; width: 100%; justify-content: center; background-image: url(&apos;project://database/Assets/source/img/wood_background_2.png?fileID=21300000&amp;guid=314f4a4831d3c6048b559172ae8c9d2e&amp;type=3#wood_background_2&apos;); align-items: center;">
+        <ui:VisualElement name="first_page_parchment" style="width: 1700px; height: 900px; justify-content: center; align-items: center; background-image: url(&apos;project://database/Assets/source/img/parchment.png?fileID=21300000&amp;guid=252de2a7827cbde45aea1b8f9f63eddd&amp;type=3#parchment&apos;);">
+            <ui:Label text="연금술 아카데미" display-tooltip-when-elided="true" name="title" style="width: 1000px; height: 120px; -unity-font: url(&apos;project://database/Assets/source/font/EBS%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8CR.ttf?fileID=12800000&amp;guid=c6000d61df79d2449aee9eeba669399b&amp;type=3#EBS훈민정음R&apos;); font-size: 100px; -unity-text-align: upper-center; color: rgb(0, 0, 0); -unity-font-definition: none; white-space: nowrap; margin-top: 150px;" />
+            <ui:GroupBox name="btn_area" style="width: 1500px; height: 600px; flex-direction: row; align-items: center;">
+                <ui:GroupBox name="connect_area" style="width: 750px; height: 400px; justify-content: center; -unity-text-align: upper-center; align-items: center;">
+                    <ui:Label text="입장 하기" display-tooltip-when-elided="true" name="connect_label" style="justify-content: flex-start; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/source/font/EBS%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8CR.ttf?fileID=12800000&amp;guid=c6000d61df79d2449aee9eeba669399b&amp;type=3#EBS훈민정음R&apos;); font-size: 60px; color: rgb(0, 0, 0); -unity-text-align: upper-center; transition-property: color; transition-duration: 0.75s;" />
+                    <ui:VisualElement name="connect_btn" />
+                </ui:GroupBox>
+                <ui:GroupBox name="explain_area" style="width: 750px; height: 500px; justify-content: flex-start; align-items: center;">
+                    <ui:Label text="아카데미&#10;안내 " display-tooltip-when-elided="true" name="explain_label" style="justify-content: flex-start; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/source/font/EBS%ED%9B%88%EB%AF%BC%EC%A0%95%EC%9D%8CR.ttf?fileID=12800000&amp;guid=c6000d61df79d2449aee9eeba669399b&amp;type=3#EBS훈민정음R&apos;); font-size: 60px; color: rgb(0, 0, 0); -unity-text-align: upper-center; height: 126px;" />
+                    <ui:VisualElement name="explain_btn" style="width: 300px; height: 300px; align-items: flex-end; background-image: url(&apos;project://database/Assets/source/img/astral_magic_circle_1.png?fileID=21300000&amp;guid=125797217205c4d469befcc68b5ab933&amp;type=3#astral_magic_circle_1&apos;);" />
+                </ui:GroupBox>
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
